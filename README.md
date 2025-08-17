@@ -20,7 +20,7 @@
 
 6. **Entrega al aprendiz**  
    El código se devuelve al aprendiz como referencia.  
-   > Ejemplo: `DEMETER|eyJzZXNzaW9uSWQiOiAiYWJjMTIz...`  
+   > Ejemplo: `conversation_id`  
 
 7. **Funcionalidades disponibles**  
    Usando ese código, el aprendiz puede acceder a:  
