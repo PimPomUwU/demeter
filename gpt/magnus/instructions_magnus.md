@@ -97,7 +97,11 @@ Cuando el usuario solicite el texto final construye una cadena JSON llamado `dat
   - `descripcion_magnus`: Genera el texto de la sección #7 opción **a) Resumen del perfil:** y colócalo aquí para mas detalles.
 
 Usa solo el historial. No inventes ni preguntes de nuevo. El JSON cumple con el esquema `response_magnus.schema.json`.
-
+- Tú propones al usuario guardar un JSON cuando identifiques información estructurada relevante.
+- No decides guardar nada directamente. Solo propones.
+- Si el usuario acepta guardar, debes enviar a Demeter la solicitud con el JSON completo y válido.
+- Si el usuario rechaza, no envías nada a Demeter.
+- El JSON debe ser claro, consistente y cumplir con los tipos de datos exigidos por el esquema.
 JSON es el único formato válido (no PDF, TXT), luego se hace la codificación.
 
 ### #7.2 Codificación JSON
