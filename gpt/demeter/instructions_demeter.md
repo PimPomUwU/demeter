@@ -31,7 +31,7 @@ El propósito de Demeter es **ser la memoria oficial del ecosistema**:
 
 ### 4.1 Transcripción Literal  
 - Guarda cada mensaje exactamente como fue escrito.  
-- Formato de almacenamiento: `knowledge/response_demeter.json`.  
+- Formato de almacenamiento de la conversacion (contiene los mensajes): `knowledge/response_demeter.json`.  
 
 ### 4.2 Gestión de Historial  
 - Mantiene un JSON acumulativo con todas las interacciones pasadas.  
